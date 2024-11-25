@@ -1,0 +1,120 @@
+<!DOCTYPE html>ALWAN
+<html lang="id">
+<meta charset='UTF-8'/><meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/><meta content='IE=edge' http-equiv='X-UA-Compatible'/>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Antique:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script><link href="https://feeldreams.github.io/heihbd/style.css" rel="stylesheet" type="text/css" />
+  <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
+  <script src="https://kit.fontawesome.com/4f3ce16e3e.js" crossorigin="anonymous"></script>
+  
+<head>
+<title>HBD ALWAN</title>
+<link rel="icon" type="image/x-icon" href="https://i.ibb.co/McfCGJS/6830721.png">
+<meta name="description" content="HTML alwan Malas.id">
+
+</head>
+<body>
+  
+   <!-- Ganti Audio di sini -->
+   <audio src="music/masing.mp3" id="linkmp3" class="sembunyi"></audio>
+   
+   <div id="bodyblur">
+     <!-- Wallpaper --><img src="https://i.ibb.co/NZW3y1P/S-5185565-0.jpg" id="wallpaper"/><div id="beneranblur"></div>
+   </div>
+   
+   <div id='Content'>
+
+     <div id="kadoIn">
+       <!-- Tombol Surat --><img src="https://feeldreams.github.io/kadoin.png"/>
+     </div>
+     <p id="ket">Klik WAN!</p>
+
+     <div class="kumpulanstiker">
+         <!-- Stiker untuk Konten -->
+         <img src="https://i.ibb.co/K94p1HQ/S-5185567-0.jpg" id="fotostiker"/>
+         <img src="https://i.ibb.co/9r420Xb/S-5185568-0.jpg" id="fotostiker1"/>
+         <img src="https://i.ibb.co/yYSph7X/S-5185571-0.jpg" id="fotostiker2"/>
+         <img src="https://i.ibb.co/Vp5L0d5/S-5185572.jpg" id="fotostiker3"/>
+         <img src="https://i.ibb.co/CvXgR2P/88-ECD680-99-F1-423-F-8-BEF-EA1-C9620-CB69.jpg" id="fotostiker4"/>
+         <img src="https://i.ibb.co/p4xCZ3w/S-5185576-0.jpg" id="fotostiker5"/>
+         
+         <img src="https://i.ibb.co/jg0tWb7/S-5185575-0.jpg" id="fotostiker6"/>
+     </div>
+     
+     <p id="halo" class="halo"></p>
+     
+     <div><blockquote id='bq' data-text='㋡'>
+       <p id="kalimat">NAH WAN KADO BUAT KAU WKWK 🤣</p>
+
+       <p id="pesan1">Klik Galo Wan Wkwk! 😆</p>
+       <div id="kolombaru">
+         <li id="lv1">🖕</li>
+         <li id="lv2">🖕</li>
+         <li id="lv3">🖕</li>
+         <li id="lv4">🖕</li>
+       </div>
+
+       <p id="pesan2">Sabar Wan...<p>
+       <!-- Pesan -->
+       <p id="pesan3">Jiakhh.. Ado yang Ultah Nih 🤣</p>
+       <p id="pesan4">HABEDE WAN EE</p>
+       <p id="pesan5" class="gaya2">Dah Nambah tuo bae ee wan WKWKWK</p>
+       <p id="pesan6" class="gaya2">Moga panjang umur wan ee samo maaf kelah aku dak tahun ini kito dak ketemu wkwk😆</p>
+       <p id="pesan7" class="gaya2">Sehat sehat be wan di indo yee!</p>
+
+       <p id="pesan8" class="gaya2">maen maen wan wkwkwk</p>
+       <p id="pesan9" class="gaya2">oh yooo dengan berkurang ny umur kau ini kau biso jadi pribadi yang lebih baekk jangan nak gonta ganti cewek bae 😆</p>
+       <p id="pesan10" class="gaya2">sekali lagi habede yo wan 🥳</p>
+
+       <!-- Tombol Lanjut -->
+       <p id="opsL">TEKEN WAN (awas meledak)</p>
+     </blockquote></div>
+
+     <!-- Tombol Kirim Pesan -->
+     <div id="Tombol"><a id="By">&#128140; lanjut dak nehh</a></div>
+
+     <!-- Pesan Tambahan -->
+     <p id="katatambahan" class="sembunyi">dak ah kau jelek wan wkwkwk 😜</p>
+     
+     <!-- Pesan Ditolak -->
+     <div id="pesanditolak">
+       <img id="stikerditolak" src="https://i.ibb.co/xJt8SjP/S-5185573-0.jpg"/>
+       <p id="kataditolak">nian kau dak galak wan wkwkwk</p>
+     </div>
+
+   </div>
+
+<script>
+  const body = document.querySelector("body");const swalst = Swal.mixin({timer: 2300, allowOutsideClick: false, showConfirmButton: false, timerProgressBar: true, imageHeight: 90,}); audio = new Audio('' + linkmp3.src); ftganti=0;fungsi=0;fungsiAwal=0;deffotostiker=fotostiker.src;function berjatuhan() {const heart = document.createElement("div"); heart.className = "fas fa-snowflake"; heart.style.left = (Math.random() * 90)+"vw"; heart.style.animationDuration = (Math.random()*3)+2+"s"; body.appendChild(heart);} setInterval(function name(params) {var heartArr = document.querySelectorAll(".fa-snowflake"); if (heartArr.length > 100) {heartArr[0].remove()}},100);Content.style = "opacity:1;margin-top:16vh"; const swals = Swal.mixin({allowOutsideClick: false, cancelButtonColor: '#FF0040', imageHeight: 80,}); 
+  
+  document.getElementById("kadoIn").onclick = function() {if(fungsiAwal==0){audio.play();fungsiAwal=1;kadoIn.style="transition:all .8s ease;transform:scale(10);opacity:0";wallpaper.style="transform: scale(1.5);";ket.style="display:none";setTimeout(initengahan,300);setTimeout(inipesan,500)}}
+  
+  async function inipesan(){
+    var { value: nama } = await swals.fire({
+           title: 'Masukin Nama Kamu', input: 'text',
+       });
+       if(nama && nama.length < 11){
+         window.nama = nama;
+         vketikhalo="Hai, " + nama + " ✨";
+         mulainama();
+         } else {
+           await swals.fire('Ups!', 'Nama tidak boleh kosong atau lebih dari 10 karakter, ya!');inipesan();
+    }
+  }
+
+  //Variable Pertanyaan Akhir
+  var tanya = 'Nak Kado Dak Nih Wan wkwk';
+  var opstanya = 'jawab Pantek 😆';
+  var tompositif = 'Galak';
+  var tomnegatif = 'Idak';
+    
+    async function menuju(){pesanwhatsapp = "Makasii udah ngucapin " + nama + " ultah ><";await swals.fire('OK!', 'Untuk Traktiranny Chat wa Aku bae wan ee wkwk', 'success');window.location = "https://api.whatsapp.com/send?phone=62895419506633&text=nah dap untuk kau 100rb" + pesanwhatsapp;}
+</script>
+<script src="https://malasid.github.io/html/hbd.js"></script>
+<!-- Sampai Sini -->
+</body>
+  </html>
